@@ -23,6 +23,12 @@ The custom PCB includes:
 - Power and signal routing for the integrated peripherals
 - Custom PCB layout and routing designed in KiCad
 
+## Hardware Design Files
+
+The complete editable KiCad hardware-design source is available in [`hardware/kicad/`](hardware/kicad/). The directory contains the PCB layout, electrical schematic, KiCad project file, and the project-local symbol, footprint, and 3D-model resources required by the design.
+
+The published hardware files document the PCB design contribution. Firmware/software and enclosure CAD are intentionally not included because they were developed or designed by other project team members.
+
 ## RS-485 Communication Interface
 
 The hardware provides an RS-485 physical-layer interface for communication with charging-station equipment. In the project system, the ESP32 communicates with connected devices using Modbus RTU over RS-485.
